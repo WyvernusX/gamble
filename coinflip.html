@@ -8,6 +8,24 @@
 <body>
     <header>fake conflip</header>
     <div>
-    <img src ="https://raw.githubusercontent.com/WyvernusX/gamble/main/canvas.png" style="max-width:30%;" draggable="false">
+    <img src ="https://raw.githubusercontent.com/WyvernusX/gamble/main/canvas.png" style="max-width:100%;" draggable="false">
+    <script>
+        onmouseover = function(mousedown){
+            console.log('hovered / above')
+            console.log('clicked');
+            Math.random(0-1)
+            console.log(Math.random(0-1))
+            if (Math.random(0-1) <= 0.5) {
+                console.log('continue')
+            }
+            else  {
+                console.log('stop')
+            }
+        }
+
+        if (onmouseover) and (onmousedown); {
+            console.log('hello')
+        }
+    </script>
     </div>
-</body>
+</body> 
